@@ -1,9 +1,15 @@
-// import functions and grab DOM elements
+const button = document.getElementById('button');
+const randomnum = document.getElementById('random-num');
+const number = document.getElementById('number');
+const span1 = document.getElementById('span');
 
-// initialize global state
+let theRandomNumber = Math.floor(Math.random() * 20) + 1;
 
-// set event listeners 
-// get user input
-// use user input to update state 
-// update DOM to reflect the new state
+button.addEventListener('click', () =>{
+    let userGuess = Number(number.value);
+    console.log(userGuess);
+    // span1.textContent = randomnum.value;
+
+
+});
 
