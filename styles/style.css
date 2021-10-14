@@ -1,1 +1,26 @@
 
+#random-num {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#generate {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #6C6EA0;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: hotpink;
+}
+
+body {
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+}
